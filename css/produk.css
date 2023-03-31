@@ -1,0 +1,62 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-custom {
+  background-color: rgb(89, 69, 69);
+  color: rgb(68, 53, 53);
+}
+
+.btn-custom {
+  background-color: rgb(139, 115, 115) !important;
+  color: aliceblue !important;
+}
+
+.btn-chat {
+  background-color: #fff8ea !important;
+}
+
+.hr-border {
+  background-color: rgb(34, 27, 27);
+}
+
+.bawah {
+  height: 4rem;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(89, 69, 69);
+  gap: 1rem;
+}
+.baris {
+  display: flex;
+  justify-content: center;
+}
+
+.navigasi {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.navigasi li a {
+  text-decoration: none;
+  color: #e4e1e1;
+}
+
+.bawah .baris p {
+  color: #e4e2e2;
+  margin-left: 2rem;
+}
+
+@media (max-width: 700px) {
+  .navigasi li a {
+    font-size: 0.6rem;
+  }
+
+  .bawah .baris p {
+    font-size: 0.8rem;
+  }
+}
